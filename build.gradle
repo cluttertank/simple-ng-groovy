@@ -45,9 +45,7 @@ dependencies {
   compile 'org.codehaus.groovy:groovy-all:2.3.0-beta-1:indy'
   compile "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
   compile "org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}"
-  compile "edu.stanford.nlp:stanford-corenlp:${stanfordCoreNLPVersion}"
   compile "log4j:log4j:${log4jVersion}"
   testCompile "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
-  //compile "org.springframework.boot:spring-boot-starter-security:${springBootVersion}"
   testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
 }
