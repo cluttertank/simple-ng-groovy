@@ -1,0 +1,17 @@
+[
+  {
+    "env": "env-1",
+    "ref": "ref-1",
+    "desc": "description 1"
+  },
+  {
+    "env": "env-2",
+    "ref": "ref-3",
+    "desc": "description 2"
+  },
+  {
+    "env": "env-3",
+    "ref": "ref-3",
+    "desc": "description 3"
+  }
+]

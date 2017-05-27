@@ -1,0 +1,16 @@
+<style>p{width: 600px;}</style>
+<div>
+  <h2>Find answers to your questions</h2>
+  <div class="input-group">
+    <input type="text" ng-model="searchQuery" class="search-query" placeholder="Enter a question" size="35">&nbsp;
+    <button ng-click="search()" class="btn btn-info" type="button">Go</button>
+  </div>
+  <br/>
+  <div ng-repeat="answer in answers">
+    <p><b>{{answer.title}}</b>
+    <br/>
+    {{answer.text}}</p>
+    <br/>
+  </div>
+</div>
+        
