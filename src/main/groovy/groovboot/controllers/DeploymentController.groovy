@@ -35,11 +35,13 @@ class DeploymentController {
         }
     }
 
-    @ResponseStatus(HttpStatus.CREATED)
+    @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value='/{app}/deployments',method=RequestMethod.POST)
     Callable<Object> createDeployment(@PathVariable('app') String app,
                                       @RequestBody Deployment deployment) {
-        (Callable) { null }
+        (Callable) { 
+			 deployment;
+			 }
     }
 
 }
